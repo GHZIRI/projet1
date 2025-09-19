@@ -5,7 +5,7 @@ for(let i = 0; i<cod.length; i++) {
     if(computors[code] == undefined){
         computors[code] = 1;
     } else {
-        computors[code]++;
+        computors[code]++;  
     }
 }
 console.log(computors)
